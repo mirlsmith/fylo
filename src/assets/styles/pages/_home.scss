@@ -1,0 +1,53 @@
+.home-container {
+  padding: em(20px);
+  background-color: $clr5;
+
+  .top-section {
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    & > * {
+      max-width: 700px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+  button {
+    background-color: $clr1;
+    color: $clr2;
+    border-radius: 28px;
+    padding: 20px 95px;
+    font-size: rem(16px);
+    width: 280px;
+  }
+
+  .services-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    .service-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 350px;
+      .image {
+        margin-bottom: 20px;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .txt {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 21px;
+      }
+    }
+  }
+}

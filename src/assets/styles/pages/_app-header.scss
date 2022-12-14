@@ -1,0 +1,13 @@
+.main-header {
+  // padding: em(24px);
+  margin-top: 90px;
+  background-color: $clr5;
+  .main-nav {
+    ul {
+      gap: 60px;
+      a {
+        font-weight: 300;
+      }
+    }
+  }
+}
